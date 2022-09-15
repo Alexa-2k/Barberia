@@ -164,7 +164,7 @@ nav a:hover{
 }
 
 .degrade {
-    background: linear-gradient(#FEFEFE, #888888);
+    background: linear-gradient(#888888, #FEFEFE);
 }
 .productos {
     width: 100%;
