@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Barbería Alura</title>
+        <link rel="stylesheet" href="css/reset-styles.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="images/logo.png" alt=""></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home </a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="degrade"> 
+            <h2 class="titulo-principal">Contáctenos</h2>
+            <section  id = "contact-div">
+            <form>
+                <label for="nombreyapellido">Nombre y apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+                <!-- Los dos inputtype que siguen, email y tel se consultaron de mobileinputtypes.com para que sean validos para celulares y habiliten opciones de teclado numerico, etc. El de nombre se dejó como txt porque da igual -->
+                
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="input-padron" required placeholder="usuario@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea name="" id="mensaje" cols="62" rows="10"></textarea>
+            
+                <fieldset>
+                    <legend>¿Cómo prefiere que nos contactemos con ud?</legend>
+
+                    <!--Forma normal de declarar input con labels: 
+                        <label for="radio-email">E-mail</label>
+                        <input type="radio" name="contacto" value="email" id="radio-email"> 
+                        Puedo insertar el tipo de input y me ahorro un renglón de declaración de tipo de input pero me queda el casillero arriba del texto porque heredan la propiedad de form, que es block. Eso lo arreglo dandole una clase a estos inputs: 
+                    -->
+                    <label><input type="radio" name="contacto" value="email" id="radio-email" checked >  E-mail</label>
+                   
+                    <!--el "name" igual en los tres (en este caso: contacto) hace que formen parte del mismo grupo y sólo sea posible seleccionar uno de ellos -->
+
+                    <label><input type="radio" name="contacto" value="telefono" id="radio-telefono" >  Teléfono</label>
+                    <label><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" > Whatsapp</label>
+                </fieldset>
+                <table>
+                    <thead>
+                        <tr>  
+                            <th>Día</th>
+                            <th>Horario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>08 - 20 h</td>
+                        </tr>    
+                        <tr>
+                            <td>Miércoles</td>
+                            <td>08 - 20 h</td>
+                        </tr>        
+                        <tr> 
+                            <td>Viernes</td>
+                            <td>08 - 20 h</td> 
+                        </tr>
+                    </tbody>
+                </table>
+    
+                <fieldset>
+                    <legend>¿En qué horario prefiere ser atendido?</legend>
+                    <select id= "horario">
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+            
+                <label class="checkbox"><input type="checkbox" unchecked> ¿Le gustaría recibir novedades de la barbería?</label>
+                <input type="submit" value="Enviar formulario" class="enviar" > 
+            </form>
+        </section>    
+        </main>
+
+        <footer>
+            <img src="images/logo-blanco.png" alt="logo barbería Alura">
+            <p class="copyright">&copy Copyright Barbería Alura 2020</p>
+            
+        </footer>
+      
+    </body>

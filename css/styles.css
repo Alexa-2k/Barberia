@@ -1,0 +1,298 @@
+/*============= Seccion CSS para home */
+* {
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 76%;
+    margin: 0 auto;
+}
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+}
+
+.principal p{
+    /*margin-bottom: 1em; */
+    background-color: white;
+    padding: 0.1%;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+}
+
+.principal strong {
+    font-weight:bold;
+}
+
+.principal i{
+font-style: italic;
+font-size: 1.1em;
+
+}
+
+#mision {
+    font-size: 1.2em;
+    vertical-align: auto;
+    margin-top: 1.7%;
+    margin-bottom: 1.8%;
+}
+
+.utensilios {
+    width: 22%;  
+    float: left; 
+    /*float coloca un objeto a un lado de su contenedor. Sirve para rodear cuadros o img*/
+    margin: 0.5% 2% 0 0;
+}
+
+
+.mapa {
+    padding 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+/* linear-gradient(Xdeg, color1 20% , color2 10% , etc.) 
+también puede ser radial-gradient*/
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+
+}
+
+.mapa-contenido {
+    width: 76%;
+   margin: 0 auto;
+}
+
+.diferenciales {
+    padding: 3em 0;
+    background: #888888;
+
+}
+
+.contenido-diferenciales {
+    width: 683px;
+    margin: 5% auto;
+
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block; 
+    vertical-align: top;
+    margin-top: 10%;
+    
+    /* inline block lee el html como está. Para que se vean los elementos alineados hay que escribirlos en el HTML en la misma linea */
+
+}
+.items {
+    line-height: 1.5;
+
+}
+
+.items:before {
+    content: "✯ ";
+
+}
+.items:first-child {
+    font-weight: bold;
+} /*esta es una pseudo clase
+Para marcar otros elementos: nth-child(numero deseado) incluso se puede poner nth-child(2n) y afecta sólo a los pares*/
+
+.img-diferenciales {
+    width: 60%;
+    border-radius: 12px;
+}
+
+.video {
+    width: 683px;
+    margin: 1em auto;
+    
+}
+
+
+header {
+    background-color: #BBBBBB; 
+    width: 100%;
+}
+body {
+position: relative;
+font-family: 'Montserrat', sans-serif;
+
+}
+.caja {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right:10px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+
+}
+
+.degrade {
+    background: linear-gradient(#FEFEFE, #888888);
+}
+.productos {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+}
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*incluye padding y margenes en el ancho total asignado al elemento (en este caso, 30%) del ancho*/
+    /* Si no, padding hace aumentar el tamaño del elemento*/
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.productos li:hover {
+    border-color: #C78C19;
+}
+
+.productos li:active {
+    border-color:#088C19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .productos li:hover h2{
+    font-size: 33px;
+ }   
+
+.producto-descripcion {
+    font-size: 18px;
+ }
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+ }
+
+footer{
+    text-align: center;
+    background-image: url(../images/bckgd.jpg);
+    padding: 40px;    
+    position: relative;
+ }
+
+.copyright {
+    color:#FFFFFF;
+    font-size: 13px;
+}
+
+#contact-div{
+    margin: 5% 10%;
+}
+
+form textarea{
+    display: block;
+    margin: 0 0 40px;
+    padding: 1% 2%;
+    width: 50%; 
+}
+
+form label, form legend {
+    display: block;
+    font-size: 1.3em;
+    margin: 1.5% 0 1.5%;
+}
+fieldset {
+    margin-top: 2%;
+}
+
+select {
+    margin: 2% 0;
+}
+.input-padron{
+        display: inline-block;
+        margin: 0 0 2%;
+        padding: 1% 1%;     
+        width: 30%;
+    }
+    
+.checkbox {
+   margin: 2% 0 4% 0; 
+}
+
+
+table {
+    margin: 4% 0;
+}
+
+thead {
+    background: #555555;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+#horario{ 
+    font-size: 1em;
+    padding: 0.5%;
+}
+.enviar {
+    padding: 1%;
+    width:30%;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(#ff4d00, #ffc100);
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover { 
+    background: linear-gradient(#ffc100,#ff4d00);
+    transform: scale(1.1); /*rotate(70deg); */
