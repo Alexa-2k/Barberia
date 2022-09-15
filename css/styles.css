@@ -21,8 +21,9 @@
 .titulo-principal{
     text-align: center;
     font-size: 2em;
-    margin: 1em 0 1em;
+    margin: 0 1em;
     clear: left;
+    padding: 1%;
 }
 
 .principal p{
@@ -171,6 +172,7 @@ nav a:hover{
  .degrade {
     background: linear-gradient(#888888, #FEFEFE);
      margin: 0;
+  
 }
 
 .productos {
