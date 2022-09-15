@@ -61,7 +61,7 @@ font-size: 1.1em;
 
 
 .mapa {
-    padding 3em 0;
+    padding: 3em 0;
     background: linear-gradient(#FEFEFE, #888888);
 }
 /* linear-gradient(Xdeg, color1 20% , color2 10% , etc.) 
