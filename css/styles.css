@@ -129,8 +129,6 @@ footer{
     position: relative;
  }
 
-
-
 header {
     background-color: #BBBBBB; 
     width: 100%;
@@ -170,9 +168,10 @@ nav a:hover{
 
 }
 
-.degrade {
+/* .degrade {
     background: linear-gradient(#888888, #FEFEFE);
 }
+ */
 .productos {
     width: 100%;
     margin: 0 auto;
