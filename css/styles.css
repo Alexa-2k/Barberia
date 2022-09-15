@@ -166,15 +166,13 @@ nav a {
 nav a:hover{
     color: #C78C19;
     text-decoration: underline;
-
 }
 
  .degrade {
-    background: linear-gradient(#888888, #FEFEFE);
-     margin: 0;
+    background: linear-gradient(#FEFEFE, #888888);
+    margin: 0;
   
 }
-
 .productos {
     width: 100%;
     margin: 0 auto;
