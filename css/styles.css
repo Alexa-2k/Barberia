@@ -119,9 +119,16 @@ Para marcar otros elementos: nth-child(numero deseado) incluso se puede poner nt
 
 .video {
     width: 683px;
-    margin: 1em auto;
-    
+    margin: 1em auto;  
 }
+
+footer{
+    text-align: center;
+    background-image: url("../images/bckgd.jpg");
+    padding: 40px;    
+    position: relative;
+ }
+
 
 
 header {
@@ -212,13 +219,6 @@ nav a:hover{
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
- }
-
-footer{
-    text-align: center;
-    background-image: url(../images/bckgd.jpg);
-    padding: 40px;    
-    position: relative;
  }
 
 .copyright {
