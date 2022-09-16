@@ -167,11 +167,6 @@ nav a:hover{
     text-decoration: underline;
 }
 
- .degrade {
-    background: linear-gradient(#FEFEFE, #888888);
-    margin: 0;
-  
-}
 .productos {
     width: 100%;
     margin: 0 auto;
