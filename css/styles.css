@@ -246,6 +246,7 @@ fieldset {
     margin-top: 2%;
 }
 
+
 select {
     margin: 2% 0;
 }
@@ -258,6 +259,7 @@ select {
     
 .checkbox {
    margin: 2% 0 4% 0; 
+   color: white;
 }
 
 
@@ -273,12 +275,18 @@ thead {
 td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
+   
 }
 
 #horario{ 
     font-size: 1em;
     padding: 0.5%;
+     color: white;
 }
+legend {
+    color: white;
+}
+
 .enviar {
     padding: 1%;
     width:30%;
