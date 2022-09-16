@@ -42,7 +42,6 @@
 .principal i{
 font-style: italic;
 font-size: 1.1em;
-
 }
 
 #mision {
@@ -235,17 +234,18 @@ form textarea{
     margin: 0 0 40px;
     padding: 1% 2%;
     width: 50%; 
+    border-radius: 10px;
 }
 
 form label, form legend {
     display: block;
     font-size: 1.3em;
     margin: 1.5% 0 1.5%;
+    
 }
 fieldset {
     margin-top: 2%;
 }
-
 
 select {
     margin: 2% 0;
@@ -255,13 +255,11 @@ select {
         margin: 0 0 2%;
         padding: 1% 1%;     
         width: 30%;
-    }
-    
+        border-radius: 10px;
+}   
 .checkbox {
    margin: 2% 0 4% 0; 
-   color: white;
 }
-
 
 table {
     margin: 4% 0;
@@ -275,18 +273,13 @@ thead {
 td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
-   
-}
+    }
 
 #horario{ 
     font-size: 1em;
     padding: 0.5%;
-     color: white;
+    border-radius: 10px;   
 }
-legend {
-    color: white;
-}
-
 .enviar {
     padding: 1%;
     width:30%;
@@ -304,3 +297,4 @@ legend {
 .enviar:hover { 
     background: linear-gradient(#ffc100,#ff4d00);
     transform: scale(1.1); /*rotate(70deg); */
+}
